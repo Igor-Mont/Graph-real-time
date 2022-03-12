@@ -1,8 +1,12 @@
+import { LineChartBox } from "./components/ScatterChartBox";
+import { GlobalStyle } from "./styles/global";
+
 function App() {
   return (
-    <div>
-      <h1>Graphs Socket.io</h1>
-    </div>
+    <>
+      <GlobalStyle />
+      <LineChartBox />
+    </>
   )
 }
 
