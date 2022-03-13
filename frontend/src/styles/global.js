@@ -9,10 +9,10 @@ const GlobalStyle = createGlobalStyle`
 
   body #root {
     height: 100vh;
-    background-color: gray;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #17171a;
   }
 
   html {
